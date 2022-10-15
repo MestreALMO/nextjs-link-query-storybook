@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -10,7 +11,19 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1>DevALMO, YouTube channel</h1>
+        <h1>André</h1>
+
+        <Link
+          href={{
+            pathname: "/page01",
+            query: {
+              question: "Why?",
+              answers: ["because 01", "because 02"],
+            },
+          }}
+        >
+          Example page
+        </Link>
       </main>
 
       <footer></footer>
