@@ -18,7 +18,7 @@ function Page01() {
       <ul>
         <li>Question: {router.query.question}</li>
         <li>
-          Answers:{" "}
+          Answers:
           <ul>
             <li>{router.query.answers[0]}</li>
             <li>{router.query.answers[1]}</li>
