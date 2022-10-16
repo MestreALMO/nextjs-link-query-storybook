@@ -19,3 +19,14 @@ Primary.args = {
   //   primary: true,
   //   label: "Button",
 };
+
+Primary.parameters = {
+  nextRouter: {
+    path: "/",
+    asPath: "/",
+    query: {
+      question: "Why?",
+      answers: ["because 01", "because 02"],
+    },
+  },
+};
